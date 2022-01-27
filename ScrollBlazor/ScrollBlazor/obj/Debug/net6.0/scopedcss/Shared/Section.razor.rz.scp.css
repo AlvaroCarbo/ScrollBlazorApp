@@ -1,0 +1,68 @@
+/* sections and title */
+.title h2[b-f1yw7r8q5s] {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title span[b-f1yw7r8q5s] {
+    color: var(--clr-secondary);
+}
+
+#about[b-f1yw7r8q5s],
+#services[b-f1yw7r8q5s],
+#tours[b-f1yw7r8q5s] {
+    height: 80vh;
+}
+
+#services[b-f1yw7r8q5s] {
+    background: var(--clr-white);
+}
+
+footer[b-f1yw7r8q5s] {
+    background: var(--clr-grey-1);
+    padding: 5rem 1rem;
+}
+
+    footer p[b-f1yw7r8q5s] {
+        color: var(--clr-white);
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: var(--spacing);
+        margin-bottom: 0;
+    }
+
+.top-link[b-f1yw7r8q5s] {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background: var(--clr-secondary);
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius);
+    color: var(--clr-white);
+    animation: bounce-b-f1yw7r8q5s 2s ease-in-out infinite;
+    visibility: hidden;
+    z-index: -100;
+}
+
+.show-link[b-f1yw7r8q5s] {
+    visibility: visible;
+    z-index: 100;
+}
+
+@keyframes bounce-b-f1yw7r8q5s {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

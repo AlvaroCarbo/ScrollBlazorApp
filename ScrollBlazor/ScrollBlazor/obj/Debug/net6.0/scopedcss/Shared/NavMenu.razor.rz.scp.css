@@ -1,0 +1,121 @@
+/* navbar */
+nav[b-auavxru1zt] {
+    background: var(--clr-white);
+    padding: 1rem 1.5rem;
+}
+/* fixed nav */
+.fixed-nav[b-auavxru1zt] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--clr-white);
+    box-shadow: var(--light-shadow);
+}
+
+    .fixed-nav .links a[b-auavxru1zt] {
+        color: var(--clr-grey-1);
+    }
+
+        .fixed-nav .links a:hover[b-auavxru1zt] {
+            color: var(--clr-secondary);
+        }
+/* .fixed-nav .links-container {
+  height: auto !important;
+} */
+.nav-header[b-auavxru1zt] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-toggle[b-auavxru1zt] {
+    font-size: 1.5rem;
+    color: var(--clr-grey-1);
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+    .nav-toggle:hover[b-auavxru1zt] {
+        color: var(--clr-secondary);
+    }
+
+.logo[b-auavxru1zt] {
+    height: 50px;
+}
+
+.links-container[b-auavxru1zt] {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.show-links[b-auavxru1zt] {
+    height: 200px;
+}
+
+.links a[b-auavxru1zt] {
+    background: var(--clr-white);
+    color: var(--clr-grey-5);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    display: block;
+    transition: var(--transition);
+    font-weight: bold;
+    padding: 0.75rem 0;
+}
+
+    .links a:hover[b-auavxru1zt] {
+        color: var(--clr-grey-1);
+    }
+
+@media screen and (min-width: 800px) {
+    nav[b-auavxru1zt] {
+        background: transparent;
+    }
+
+    .nav-center[b-auavxru1zt] {
+        width: 90vw;
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-header[b-auavxru1zt] {
+        padding: 0;
+    }
+
+    .nav-toggle[b-auavxru1zt] {
+        display: none;
+    }
+
+    .links-container[b-auavxru1zt] {
+        height: auto !important;
+    }
+
+    .links[b-auavxru1zt] {
+        display: flex;
+    }
+
+        .links a[b-auavxru1zt] {
+            background: transparent;
+            color: var(--clr-white);
+            font-size: 1.1rem;
+            text-transform: capitalize;
+            letter-spacing: var(--spacing);
+            display: block;
+            transition: var(--transition);
+            margin: 0 1rem;
+            font-weight: bold;
+            padding: 0;
+        }
+
+            .links a:hover[b-auavxru1zt] {
+                color: var(--clr-white);
+            }
+}
