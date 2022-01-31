@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ScrollBlazor"
   ],
-  "SelectedNode": "\\ScrollBlazor.sln",
+  "SelectedNode": "\\ScrollBlazor\\ScrollBlazor.sln",
   "PreviewInSolutionExplorer": false
 }
