@@ -1,33 +1,108 @@
-/* /Shared/Banner.razor.rz.scp.css */
-/* hero */
+/* /Pages/Index.razor.rz.scp.css */
+/* sections and title */
+.title h2[b-hvlec9x3me] {
+    text-align: center;
+    text-transform: uppercase;
+}
 
+.title span[b-hvlec9x3me] {
+    color: var(--clr-secondary);
+}
 
-.banner[b-xir926grxi] {
+#about[b-hvlec9x3me],
+#services[b-hvlec9x3me],
+#tours[b-hvlec9x3me] {
+    height: 80vh;
+}
+
+#services[b-hvlec9x3me] {
+    background: var(--clr-white);
+}
+/* /Shared/Components/Banner.razor.rz.scp.css */
+.banner[b-9gsdt9l560] {
     min-height: 100vh;
     display: grid;
     place-items: center;
     text-align: center;
 }
 
-.container h1[b-xir926grxi] {
-    color: var(--clr-white);
-    text-transform: uppercase;
+/* hero */
+/*header {
+    background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)), url(../resources/img//hero-bcg.jpeg) center/cover no-repeat;
+    min-height: 100vh;
+}*/
+/* /Shared/Components/Footer.razor.rz.scp.css */
+footer[b-3dfh6l2uok] {
+    background: var(--clr-grey-1);
+    padding: 5rem 1rem;
 }
 
-.container p[b-xir926grxi] {
-    color: var(--clr-white);
-    max-width: 25rem;
-    margin: 0 auto;
-    margin-bottom: 1.25rem;
-}
-
-@media screen and (min-width: 768px) {
-    .container p[b-xir926grxi] {
-        max-width: 40rem;
+    footer p[b-3dfh6l2uok] {
+        color: var(--clr-white);
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: var(--spacing);
+        margin-bottom: 0;
     }
+
+
+/*top-link*/
+.top-link[b-3dfh6l2uok] {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background: var(--clr-secondary);
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius);
+    color: var(--clr-white);
+    animation: bounce-b-3dfh6l2uok 2s ease-in-out infinite;
+    visibility: hidden;
+    z-index: -100;
+}
+
+.show-link[b-3dfh6l2uok] {
+    visibility: visible;
+    z-index: 100;
+}
+
+@keyframes bounce-b-3dfh6l2uok {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-4ytvkuln9u] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-4ytvkuln9u] {
+    
+}
+
+.nav-background[b-4ytvkuln9u] {
+    background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)), url(../resources/img//hero-bcg.jpeg) center/cover no-repeat;
 }
 
 /* /Shared/NavMenu.razor.rz.scp.css */
+/*
+=============== 
+Scroll
+===============
+*/
 /* navbar */
 nav[b-auavxru1zt] {
     background: var(--clr-white);
@@ -149,72 +224,5 @@ nav[b-auavxru1zt] {
                 color: var(--clr-white);
             }
 }
-/* /Shared/Section.razor.rz.scp.css */
-/* sections and title */
-.title h2[b-f1yw7r8q5s] {
-    text-align: center;
-    text-transform: uppercase;
-}
 
-.title span[b-f1yw7r8q5s] {
-    color: var(--clr-secondary);
-}
 
-#about[b-f1yw7r8q5s],
-#services[b-f1yw7r8q5s],
-#tours[b-f1yw7r8q5s] {
-    height: 80vh;
-}
-
-#services[b-f1yw7r8q5s] {
-    background: var(--clr-white);
-}
-
-footer[b-f1yw7r8q5s] {
-    background: var(--clr-grey-1);
-    padding: 5rem 1rem;
-}
-
-    footer p[b-f1yw7r8q5s] {
-        color: var(--clr-white);
-        text-align: center;
-        text-transform: capitalize;
-        letter-spacing: var(--spacing);
-        margin-bottom: 0;
-    }
-
-.top-link[b-f1yw7r8q5s] {
-    font-size: 1.25rem;
-    position: fixed;
-    bottom: 3rem;
-    right: 3rem;
-    background: var(--clr-secondary);
-    width: 2rem;
-    height: 2rem;
-    display: grid;
-    place-items: center;
-    border-radius: var(--radius);
-    color: var(--clr-white);
-    animation: bounce-b-f1yw7r8q5s 2s ease-in-out infinite;
-    visibility: hidden;
-    z-index: -100;
-}
-
-.show-link[b-f1yw7r8q5s] {
-    visibility: visible;
-    z-index: 100;
-}
-
-@keyframes bounce-b-f1yw7r8q5s {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.5);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}

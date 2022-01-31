@@ -5,8 +5,8 @@
     <div class="nav-center">
         <!-- nav header -->
         <div class="nav-header">
-            <img src="/css/logo.svg" class="logo" alt="logo" />
-            <button class="nav-toggle" onclick="">
+            <img src="resources/img/logo.svg" class="logo" alt="logo" />
+            <button class="nav-toggle">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
@@ -30,9 +30,13 @@
     </div>
 </nav>
 
-@code {
-    private Lazy<Task<IJSObjectReference?>>? _jsModuleTask;
-    private IJSObjectReference? _jsModule;
 
-  
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await _js.InvokeVoidAsync("nav.OnInitialized");
+        }
+    }
 }

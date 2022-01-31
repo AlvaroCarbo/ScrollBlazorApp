@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JtOufxAl6w8QsdwnyF3473C1V52wIBdP5r47s8VleMo9mAA1xSaEEhUb954OUK7RmKDKBv76PsPgXLpz68uyEg==",
+  "dgSpecHash": "Jm82h6c1AciBoMyM6M5d/7KKT9Uyu0ekuMpo51wA20zwFn2UWPrBPeiHd4wz6TuXhVXaLeYdAciOOaz+YEBQ5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\crack\\Desktop\\Blazor\\ScrollBlazor\\ScrollBlazor\\ScrollBlazor.csproj",
+  "projectFilePath": "C:\\Users\\crack\\Desktop\\Blazor\\ScrollBlazorApp\\ScrollBlazor\\ScrollBlazor\\ScrollBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\crack\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\microsoft.aspnetcore.authorization.6.0.1.nupkg.sha512",
     "C:\\Users\\crack\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.1\\microsoft.aspnetcore.components.6.0.1.nupkg.sha512",

@@ -1,0 +1,19 @@
+﻿/* sections and title */
+.title h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title span {
+    color: var(--clr-secondary);
+}
+
+#about,
+#services,
+#tours {
+    height: 80vh;
+}
+
+#services {
+    background: var(--clr-white);
+}

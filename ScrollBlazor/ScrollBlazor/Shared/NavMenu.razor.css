@@ -1,4 +1,9 @@
-﻿/* navbar */
+/*
+=============== 
+Scroll
+===============
+*/
+/* navbar */
 nav {
     background: var(--clr-white);
     padding: 1rem 1.5rem;
@@ -119,3 +124,5 @@ nav {
                 color: var(--clr-white);
             }
 }
+
+

@@ -1,0 +1,19 @@
+/* sections and title */
+.title h2[b-hvlec9x3me] {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title span[b-hvlec9x3me] {
+    color: var(--clr-secondary);
+}
+
+#about[b-hvlec9x3me],
+#services[b-hvlec9x3me],
+#tours[b-hvlec9x3me] {
+    height: 80vh;
+}
+
+#services[b-hvlec9x3me] {
+    background: var(--clr-white);
+}

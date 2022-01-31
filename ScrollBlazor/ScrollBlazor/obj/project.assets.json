@@ -1553,11 +1553,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crack\\Desktop\\Blazor\\ScrollBlazor\\ScrollBlazor\\ScrollBlazor.csproj",
+      "projectUniqueName": "C:\\Users\\crack\\Desktop\\Blazor\\ScrollBlazorApp\\ScrollBlazor\\ScrollBlazor\\ScrollBlazor.csproj",
       "projectName": "ScrollBlazor",
-      "projectPath": "C:\\Users\\crack\\Desktop\\Blazor\\ScrollBlazor\\ScrollBlazor\\ScrollBlazor.csproj",
+      "projectPath": "C:\\Users\\crack\\Desktop\\Blazor\\ScrollBlazorApp\\ScrollBlazor\\ScrollBlazor\\ScrollBlazor.csproj",
       "packagesPath": "C:\\Users\\crack\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crack\\Desktop\\Blazor\\ScrollBlazor\\ScrollBlazor\\obj\\",
+      "outputPath": "C:\\Users\\crack\\Desktop\\Blazor\\ScrollBlazorApp\\ScrollBlazor\\ScrollBlazor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
